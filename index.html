@@ -1,94 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Structural Trivia</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif; /* Match site body/paragraphs */
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      background: transparent;
-      color: #002B45; /* Deep blue from your logo */
-    }
-    h1 {
-      text-align: center;
-      font-size: 3rem;
-      font-weight: 800;
-      font-family: 'Manrope', sans-serif; /* Match site headings */
-      margin-bottom: 1rem;
-    }
-    .hidden {
-      display: none;
-    }
-    .filter-btn {
-      margin: .3rem;
-      padding: .5rem 1rem;
-      border: none;
-      border-radius: 12px;
-      background: #E6F0FF; /* Light blue */
-      cursor: pointer;
-      font-family: 'Poppins', sans-serif; /* Match buttons */
-    }
-    .filter-btn.active {
-      background: #007ACC; /* Vibrant blue */
-      color: #fff;
-    }
-    .answer-btn {
-      display: block;
-      width: 100%;
-      margin: .5rem 0;
-      padding: 1rem 1.5rem;
-      border: 2px solid #007ACC;
-      border-radius: 12px;
-      background: #fff;
-      text-align: left;
-      cursor: pointer;
-      font-family: 'Poppins', sans-serif; /* Match buttons */
-    }
-    .answer-btn:hover {
-      background: #007ACC;
-      color: #fff;
-    }
-    .controls {
-      margin-top: 1rem;
-      display: flex;
-      gap: 1rem;
-      align-items: center;
-      flex-wrap: wrap;
-      font-family: 'Poppins', sans-serif;
-    }
-    .report-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-      font-family: 'Poppins', sans-serif;
-    }
-    .report-table th, .report-table td {
-      border: 1px solid #ccc;
-      padding: .5rem;
-      text-align: left;
-    }
-    .correct {
-      color: green;
-      font-weight: 700;
-    }
-    .incorrect {
-      color: red;
-      font-weight: 700;
-    }
-    #status {
-      margin: 8px 0;
-      color: #3b4b5a;
-      font-size: .95rem;
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
-</head>
-<body>
-  <h1>Structural Trivia</h1>
-  <!-- (rest of your HTML and JavaScript stays the same) -->
-</body>
-</html>
+ <style>
+  body {
+    font-family: 'Poppins', sans-serif; /* Match site body/paragraphs */
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: transparent;
+    color: #002B45; /* Deep blue from your logo */
+    font-weight: 400; /* Regular */
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600; /* Slightly bold for hierarchy, not heavy */
+    font-family: 'Manrope', sans-serif; /* Match site headings */
+    margin-bottom: 1rem;
+  }
+  .filter-btn {
+    margin: .3rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 12px;
+    background: #E6F0FF; /* Light blue */
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Regular */
+  }
+  .filter-btn.active {
+    background: #007ACC; /* Vibrant blue */
+    color: #fff;
+    font-weight: 500; /* Medium for emphasis */
+  }
+  .answer-btn {
+    display: block;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem 1.5rem;
+    border: 2px solid #007ACC;
+    border-radius: 12px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Regular */
+  }
+  .answer-btn:hover {
+    background: #007ACC;
+    color: #fff;
+  }
+  .controls {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  .report-table th, .report-table td {
+    border: 1px solid #ccc;
+    padding: .5rem;
+    text-align: left;
+    font-weight: 400;
+  }
+  .correct {
+    color: green;
+    font-weight: 500; /* Medium instead of bold */
+  }
+  .incorrect {
+    color: red;
+    font-weight: 500; /* Medium instead of bold */
+  }
+  #status {
+    margin: 8px 0;
+    color: #3b4b5a;
+    font-size: .95rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+</style>
